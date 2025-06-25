@@ -5,7 +5,12 @@ import Navbar from '@/components/Navbar'
 import CategoryCard from '@/components/CategoryCard'
 import { Button } from '@/components/ui/button'
 
-const categories = ['Singers', 'Dancers', 'Speakers', 'DJs']
+const categories = [
+  { label: 'Singers', value: 'Singer' },
+  { label: 'Dancers', value: 'Dancer' },
+  { label: 'Speakers', value: 'Speaker' },
+  { label: 'DJs', value: 'DJ' }
+]
 
 export default function HomePage() {
   return (
@@ -33,7 +38,9 @@ export default function HomePage() {
           <h2 className="text-3xl font-semibold text-center mb-10">Artist Categories</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             {categories.map((category) => (
-              <CategoryCard key={category} title={category} />
+              <Link key={category.value} href={`/artists?category=${encodeURIComponent(category.value)}`}>
+                <CategoryCard title={category.label} />
+              </Link>
             ))}
           </div>
         </section>

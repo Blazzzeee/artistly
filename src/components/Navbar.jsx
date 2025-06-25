@@ -11,11 +11,14 @@ export default function Navbar() {
         Artistly
       </Link>
       <nav className="space-x-4">
-        <Link href="/about" className={cn(buttonVariants({ variant: "ghost" }))}>
+        <Link href="/about" className={cn(buttonVariants({ variant: 'ghost' }))}>
           About
         </Link>
-        <Link href="/artists" className={cn(buttonVariants({ variant: "outline" }))}>
+        <Link href="/artists" className={cn(buttonVariants({ variant: 'outline' }))}>
           Browse Artists
+        </Link>
+        <Link href="/onboard" className={cn(buttonVariants({ variant: 'default' }))}>
+          Onboard Artist
         </Link>
       </nav>
     </header>

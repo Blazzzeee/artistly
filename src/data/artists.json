@@ -1,50 +1,56 @@
 [
   {
     "id": 1,
-    "name": "Arijit Singh",
+    "name": "Ichigo Kurosaki",
     "category": "Singer",
     "priceMin": 100000,
     "priceMax": 200000,
-    "location": "Mumbai"
+    "location": "Karakura Town",
+    "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2024/12/30/bleach-tybw-cover.jpg?width=1200&quality=60&format=auto"
   },
   {
     "id": 2,
-    "name": "Shakti Mohan",
+    "name": "Rukia Kuchiki",
     "category": "Dancer",
-    "priceMin": 50000,
-    "priceMax": 120000,
-    "location": "Delhi"
+    "priceMin": 80000,
+    "priceMax": 150000,
+    "location": "Soul Society",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/RukiaKuchikiKubo.jpg"
   },
   {
     "id": 3,
-    "name": "Chetan Bhagat",
+    "name": "Tōshirō Hitsugaya",
     "category": "Speaker",
-    "priceMin": 75000,
-    "priceMax": 150000,
-    "location": "Bangalore"
+    "priceMin": 90000,
+    "priceMax": 170000,
+    "location": "West Branch",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoAJU-G7SAmFhrl9pw7PEggjwR7krTLYt6nA&s"
   },
   {
     "id": 4,
-    "name": "DJ Chetas",
+    "name": "Yoruichi Shihouin",
     "category": "DJ",
     "priceMin": 120000,
     "priceMax": 250000,
-    "location": "Pune"
+    "location": "Seireitei",
+    "image": "https://i.pinimg.com/736x/df/9e/89/df9e89ba080083f272488b9f0bb2f1bf.jpg"
   },
   {
     "id": 5,
-    "name": "Neha Kakkar",
+    "name": "Renji Abarai",
     "category": "Singer",
-    "priceMin": 180000,
-    "priceMax": 300000,
-    "location": "Chandigarh"
+    "priceMin": 110000,
+    "priceMax": 180000,
+    "location": "Rukongai",
+    "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/11/Renji-Abarai-Cropped.jpg"
   },
   {
     "id": 6,
-    "name": "Remo D'Souza",
+    "name": "Orihime Inoue",
     "category": "Dancer",
-    "priceMin": 100000,
-    "priceMax": 200000,
-    "location": "Mumbai"
+    "priceMin": 70000,
+    "priceMax": 140000,
+    "location": "Karakura Town",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfrhk2FHgadVqP-uTpvjF6culEPXqLVvyAGA&s"
   }
 ]
