@@ -6,21 +6,33 @@ import { cn } from '@/lib/utils'
 
 export default function Navbar() {
   return (
-    <header className="w-full border-b py-4 px-6 flex justify-between items-center bg-background">
-      <Link href="/" className="text-2xl font-bold text-primary">
-        Artistly
-      </Link>
-      <nav className="space-x-4">
-        <Link href="/about" className={cn(buttonVariants({ variant: 'ghost' }))}>
-          About
+    <header className="w-full border-b bg-background px-4 py-3 sm:px-6">
+      <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+        <Link href="/" className="text-2xl font-bold text-primary">
+          Artistly
         </Link>
-        <Link href="/artists" className={cn(buttonVariants({ variant: 'outline' }))}>
-          Browse Artists
-        </Link>
-        <Link href="/onboard" className={cn(buttonVariants({ variant: 'default' }))}>
-          Onboard Artist
-        </Link>
-      </nav>
+
+        <nav className="flex flex-wrap gap-2">
+          <Link
+            href="/about"
+            className={cn(buttonVariants({ variant: 'ghost', size: 'sm' }))}
+          >
+            About
+          </Link>
+          <Link
+            href="/artists"
+            className={cn(buttonVariants({ variant: 'outline', size: 'sm' }))}
+          >
+            Browse Artists
+          </Link>
+          <Link
+            href="/onboard"
+            className={cn(buttonVariants({ variant: 'default', size: 'sm' }))}
+          >
+            Onboard Artist
+          </Link>
+        </nav>
+      </div>
     </header>
   )
 }
